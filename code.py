@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 import qrcode
 from io import BytesIO
 
-TOKEN = '7972124480:AAGgPIfwfllX744dZk39QVaRF-wou8eBQyA'  # bot token
+TOKEN = ''  # bot token
 
 # Function to handle the /start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
